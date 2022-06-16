@@ -9,8 +9,8 @@ const ProcentageHandler = (props) => {
           type="range"
           min="1"
           max="33"
-          value={props.items}
           id="myRange"
+          defaultValue={props.items}
           className="slider"
         ></input>
       </div>

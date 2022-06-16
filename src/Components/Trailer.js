@@ -1,7 +1,7 @@
-import { useState } from "react";
-import Buttons from "./Buttons";
-import Modal from "./Modal";
-import ProcentageHandler from "./ProcentageHandler";
+import { useState } from 'react';
+import Buttons from './Buttons';
+import Modal from './Modal';
+import ProcentageHandler from './ProcentageHandler';
 
 const array = [];
 
@@ -18,10 +18,10 @@ const Trailer = () => {
     const updatedArray = item.concat([Math.random()]);
     if (updatedArray.length > 33) {
       setError({
-        title: "En Error occured!",
-        message: "You reached the maximum number of pallets per trailer!",
+        title: 'En Error occured!',
+        message: 'You reached the maximum number of pallets per trailer!',
       });
-      throw new Error("Maximum number of pallets");
+      throw new Error('Maximum number of pallets');
     }
     setItem(updatedArray);
   };
