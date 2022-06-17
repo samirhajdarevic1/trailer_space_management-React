@@ -10,13 +10,15 @@
   background: #872f85;
 }
 .buttons button {
-  width: 6rem;
-  height: 3rem;
+  width: 7rem;
+  height: 4rem;
   margin: 20px;
   background: rgb(150, 203, 223);
+  font-size: 18px;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 16px;
 }
 .buttons button:hover,
 .buttons button:active {

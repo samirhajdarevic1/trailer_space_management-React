@@ -20,6 +20,7 @@
   z-index: 100;
   overflow: hidden;
   text-align: center;
+  font-size: 19px;
 }
 .header {
   width: 100%;
